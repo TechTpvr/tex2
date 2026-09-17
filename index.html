@@ -9,20 +9,26 @@
 <link rel="stylesheet" href="style.css"><title>TeeXaa®</title>
 </head><body>
 <div id="splash" class="splash">
-  <div class="s-orb orb-cyan"></div><div class="s-orb orb-pink"></div><div class="s-orb orb-violet"></div>
-  <div class="s-ribbon ribbon-a"></div><div class="s-ribbon ribbon-b"></div>
-  <div class="s-grain"></div>
+  <div class="s-aurora aurora-a"></div><div class="s-aurora aurora-b"></div><div class="s-aurora aurora-c"></div>
+  <div class="s-stars"></div><div class="s-grain"></div>
   <div class="s-center">
     <div class="entry-stage">
       <div class="entry-glow"></div>
-      <img src="teexaa-entry.png" alt="TeeXaa" class="entry-logo">
-      <span class="entry-sweep"></span>
-      <span class="entry-trace trace-1"></span><span class="entry-trace trace-2"></span>
+      <div class="orbit-system" aria-hidden="true">
+        <span class="orbit orbit-1"></span><span class="orbit orbit-2"></span><span class="orbit orbit-3"></span>
+        <span class="orbit-dot dot-a"></span><span class="orbit-dot dot-b"></span><span class="orbit-dot dot-c"></span>
+        <span class="orbit-flare flare-a"></span><span class="orbit-flare flare-b"></span>
+      </div>
+      <div class="entry-wordmark">
+        <img src="teexaa-entry.png" alt="TeeXaa" class="entry-logo">
+        <span class="entry-sweep"></span>
+      </div>
+      <div class="entry-halo"></div>
     </div>
-    <div class="entry-caption">دنیای فرصت‌ها، یک قدم نزدیک‌تر</div>
+    <div class="entry-caption">به دنیای فرصت‌ها قدم بگذار</div>
   </div>
   <div class="s-loader"><span></span><i></i><b></b></div>
-  <div class="s-bottom"><span>TEE XAA</span><span id="bootPct">00%</span></div>
+  <div class="s-bottom"><span>TEE XAA · MARKET</span><span id="bootPct">00%</span></div>
 </div>
 <div id="app" class="hidden">
 <header class="mobile-head"><button class="brand-mini" data-page="home"><img src="logo-app.png"><span>TeeXaa<sup>®</sup></span></button><div class="head-actions"><button class="round-btn" data-page="notifications" aria-label="اعلان">${''}<span class="i-bell"></span><em></em></button><button class="profile-dot" data-page="profile">T</button></div></header>
